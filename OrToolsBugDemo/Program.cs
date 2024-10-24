@@ -97,7 +97,9 @@ class Program
 			var endNode = manager.IndexToNode(endIndex);
 
 			timeDimension.CumulVar(startIndex).SetRange(timeWindows[startNode, 0], timeWindows[startNode, 1]);
+			timeDimension.SetCumulVarSoftLowerBound(startIndex, timeWindows[startNode, 1], 1);
 			timeDimension.CumulVar(endIndex).SetRange(timeWindows[endNode, 0], timeWindows[endNode, 1]);
+			timeDimension.SetCumulVarSoftUpperBound(endIndex, timeWindows[endNode, 0], 1);
 		}
 
 		#endregion
@@ -128,6 +130,14 @@ class Program
 		}
 
 		#endregion
+
+		for (var i = 0; i < manager.GetNumberOfVehicles(); i++)
+		{
+			// 9.2+
+			routing.SetVehicleUsedWhenEmpty(true, i);
+			// 9.1 and prior
+			// routing.ConsiderEmptyRouteCostsForVehicle(true, i);
+		}
 
 		#region Solve
 
