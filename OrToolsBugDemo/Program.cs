@@ -46,11 +46,9 @@ class Program
 
 		routing.SetArcCostEvaluatorOfAllVehicles(transitTimeCallbackIndex);
 
-		var waitingTime = (long)new TimeSpan(30, 30, 0).TotalSeconds;
-
 		routing.AddDimensionWithVehicleCapacity(
 			transitTimeCallbackIndex,						// transit callback
-			waitingTime,									// allow waiting time
+			5400,									// allow waiting time
 			[1721665800],									// vehicle maximum capacities - this is the vehicle end time
 			false,						// start cumul to zero - determines if the cumulative variable is set to zero at the start of each vehicle's route
 			"Time"
