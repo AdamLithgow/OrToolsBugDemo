@@ -1,0 +1,355 @@
+{
+  "Routes": [
+    {
+      "RouteId": "590493",
+      "StartDepot": {
+        "LocationId": "StartDepot-590493",
+        "Sequence": null,
+        "Coordinate": {
+          "Latitude": 39.4122,
+          "Longitude": -81.4376
+        },
+        "StartTime": "2024-11-05T20:15:49.42Z",
+        "EndTime": "2024-11-05T20:15:50.42Z",
+        "LoadingTime": "00:00:00",
+        "UnloadingTime": null
+      },
+      "EndDepot": {
+        "LocationId": "EndDepot-590493",
+        "Sequence": null,
+        "Coordinate": {
+          "Latitude": 39.4112,
+          "Longitude": -81.4404
+        },
+        "StartTime": "2024-11-05T12:00:00Z",
+        "EndTime": "2024-11-05T22:01:00Z",
+        "LoadingTime": "00:00:00",
+        "UnloadingTime": "00:00:00"
+      },
+      "Breaks": [],
+      "Orders": [
+        {
+          "OrderId": "P-42993",
+          "Location": {
+            "LocationId": "P-42993",
+            "Sequence": 0,
+            "Coordinate": {
+              "Latitude": 39.4222,
+              "Longitude": -81.4477
+            },
+            "StartTime": "2024-11-05T21:15:00Z",
+            "EndTime": "2024-11-05T21:45:00Z",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "Capacities": [
+            {
+              "CapacityType": 0,
+              "CurrentSeats": 1,
+              "DynamicCapacity": null
+            },
+            {
+              "CapacityType": 1,
+              "CurrentSeats": 0,
+              "DynamicCapacity": null
+            },
+            {
+              "CapacityType": 2,
+              "CurrentSeats": 0,
+              "DynamicCapacity": null
+            }
+          ],
+          "AssignmentRule": 3,
+          "SpecialConstraintsRequired": [],
+          "SubsequentOrder": {
+            "OrderId": "D-42993",
+            "Location": {
+              "LocationId": "D-42993",
+              "Sequence": 0,
+              "Coordinate": {
+                "Latitude": 39.4235,
+                "Longitude": -81.4654
+              },
+              "StartTime": "2024-11-05T21:20:57Z",
+              "EndTime": "2024-11-05T22:05:57Z",
+              "LoadingTime": "00:01:30",
+              "UnloadingTime": null
+            },
+            "Capacities": [
+              {
+                "CapacityType": 0,
+                "CurrentSeats": -1,
+                "DynamicCapacity": null
+              },
+              {
+                "CapacityType": 1,
+                "CurrentSeats": 0,
+                "DynamicCapacity": null
+              },
+              {
+                "CapacityType": 2,
+                "CurrentSeats": 0,
+                "DynamicCapacity": null
+              }
+            ],
+            "AssignmentRule": 3,
+            "SpecialConstraintsRequired": [],
+            "SubsequentOrder": null,
+            "Revenue": null,
+            "PriorityType": 0
+          },
+          "Revenue": null,
+          "PriorityType": 0
+        },
+        {
+          "OrderId": "P-43094",
+          "Location": {
+            "LocationId": "P-43094",
+            "Sequence": 0,
+            "Coordinate": {
+              "Latitude": 39.414,
+              "Longitude": -81.4551
+            },
+            "StartTime": "2024-11-05T21:00:00Z",
+            "EndTime": "2024-11-05T21:30:00Z",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "Capacities": [
+            {
+              "CapacityType": 0,
+              "CurrentSeats": 1,
+              "DynamicCapacity": null
+            },
+            {
+              "CapacityType": 1,
+              "CurrentSeats": 0,
+              "DynamicCapacity": null
+            },
+            {
+              "CapacityType": 2,
+              "CurrentSeats": 0,
+              "DynamicCapacity": null
+            }
+          ],
+          "AssignmentRule": 3,
+          "SpecialConstraintsRequired": [],
+          "SubsequentOrder": {
+            "OrderId": "D-43094",
+            "Location": {
+              "LocationId": "D-43094",
+              "Sequence": 0,
+              "Coordinate": {
+                "Latitude": 39.4332,
+                "Longitude": -81.4411
+              },
+              "StartTime": "2024-11-05T21:05:56Z",
+              "EndTime": "2024-11-05T21:50:56Z",
+              "LoadingTime": "00:01:30",
+              "UnloadingTime": null
+            },
+            "Capacities": [
+              {
+                "CapacityType": 0,
+                "CurrentSeats": -1,
+                "DynamicCapacity": null
+              },
+              {
+                "CapacityType": 1,
+                "CurrentSeats": 0,
+                "DynamicCapacity": null
+              },
+              {
+                "CapacityType": 2,
+                "CurrentSeats": 0,
+                "DynamicCapacity": null
+              }
+            ],
+            "AssignmentRule": 3,
+            "SpecialConstraintsRequired": [],
+            "SubsequentOrder": null,
+            "Revenue": null,
+            "PriorityType": 0
+          },
+          "Revenue": null,
+          "PriorityType": 0
+        },
+        {
+          "OrderId": "P-43134",
+          "Location": {
+            "LocationId": "P-43134",
+            "Sequence": 0,
+            "Coordinate": {
+              "Latitude": 39.4222,
+              "Longitude": -81.4477
+            },
+            "StartTime": "2024-11-05T20:40:00Z",
+            "EndTime": "2024-11-05T21:10:00Z",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "Capacities": [
+            {
+              "CapacityType": 0,
+              "CurrentSeats": 1,
+              "DynamicCapacity": null
+            },
+            {
+              "CapacityType": 1,
+              "CurrentSeats": 0,
+              "DynamicCapacity": null
+            },
+            {
+              "CapacityType": 2,
+              "CurrentSeats": 0,
+              "DynamicCapacity": null
+            }
+          ],
+          "AssignmentRule": 3,
+          "SpecialConstraintsRequired": [],
+          "SubsequentOrder": {
+            "OrderId": "D-43134",
+            "Location": {
+              "LocationId": "D-43134",
+              "Sequence": 0,
+              "Coordinate": {
+                "Latitude": 39.4268,
+                "Longitude": -81.4388
+              },
+              "StartTime": "2024-11-05T20:44:20Z",
+              "EndTime": "2024-11-05T21:29:20Z",
+              "LoadingTime": "00:01:30",
+              "UnloadingTime": null
+            },
+            "Capacities": [
+              {
+                "CapacityType": 0,
+                "CurrentSeats": -1,
+                "DynamicCapacity": null
+              },
+              {
+                "CapacityType": 1,
+                "CurrentSeats": 0,
+                "DynamicCapacity": null
+              },
+              {
+                "CapacityType": 2,
+                "CurrentSeats": 0,
+                "DynamicCapacity": null
+              }
+            ],
+            "AssignmentRule": 3,
+            "SpecialConstraintsRequired": [],
+            "SubsequentOrder": null,
+            "Revenue": null,
+            "PriorityType": 0
+          },
+          "Revenue": null,
+          "PriorityType": 0
+        },
+        {
+          "OrderId": "P-43136",
+          "Location": {
+            "LocationId": "P-43136",
+            "Sequence": 0,
+            "Coordinate": {
+              "Latitude": 39.4124,
+              "Longitude": -81.4376
+            },
+            "StartTime": "2024-11-05T20:30:00Z",
+            "EndTime": "2024-11-05T21:00:00Z",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "Capacities": [
+            {
+              "CapacityType": 0,
+              "CurrentSeats": 1,
+              "DynamicCapacity": null
+            },
+            {
+              "CapacityType": 1,
+              "CurrentSeats": 0,
+              "DynamicCapacity": null
+            },
+            {
+              "CapacityType": 2,
+              "CurrentSeats": 0,
+              "DynamicCapacity": null
+            }
+          ],
+          "AssignmentRule": 3,
+          "SpecialConstraintsRequired": [],
+          "SubsequentOrder": {
+            "OrderId": "D-43136",
+            "Location": {
+              "LocationId": "D-43136",
+              "Sequence": 0,
+              "Coordinate": {
+                "Latitude": 39.4279,
+                "Longitude": -81.4562
+              },
+              "StartTime": "2024-11-05T20:35:50Z",
+              "EndTime": "2024-11-05T21:20:50Z",
+              "LoadingTime": "00:01:30",
+              "UnloadingTime": null
+            },
+            "Capacities": [
+              {
+                "CapacityType": 0,
+                "CurrentSeats": -1,
+                "DynamicCapacity": null
+              },
+              {
+                "CapacityType": 1,
+                "CurrentSeats": 0,
+                "DynamicCapacity": null
+              },
+              {
+                "CapacityType": 2,
+                "CurrentSeats": 0,
+                "DynamicCapacity": null
+              }
+            ],
+            "AssignmentRule": 3,
+            "SpecialConstraintsRequired": [],
+            "SubsequentOrder": null,
+            "Revenue": null,
+            "PriorityType": 0
+          },
+          "Revenue": null,
+          "PriorityType": 0
+        }
+      ],
+      "Capacities": [
+        {
+          "CapacityType": 0,
+          "CurrentSeats": 12,
+          "DynamicCapacity": null
+        },
+        {
+          "CapacityType": 1,
+          "CurrentSeats": 2,
+          "DynamicCapacity": null
+        },
+        {
+          "CapacityType": 2,
+          "CurrentSeats": 0,
+          "DynamicCapacity": null
+        }
+      ],
+      "SpecialConstraintsSatisfied": [],
+      "TravelConstraints": {
+        "MaxStops": 200,
+        "MaxDuration": null,
+        "MaxTotalTravelTime": null,
+        "MaxTotalDistance": null
+      },
+      "Costs": null,
+      "RouteZones": [],
+      "ArriveDepartDelay": "00:02:00"
+    }
+  ],
+  "Orders": [],
+  "ShouldDisableEnhancements": false
+}

@@ -11,6 +11,9 @@
     <ItemGroup>
       <PackageReference Include="Google.OrTools" Version="9.11.4210" />
       <PackageReference Include="Google.OrTools.runtime.win-x64" Version="9.11.4210" />
+      <PackageReference Include="NetTopologySuite" Version="2.5.0" />
+      <PackageReference Include="NetTopologySuite.IO.GeoJSON4STJ" Version="4.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
 
 </Project>

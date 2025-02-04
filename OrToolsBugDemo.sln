@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrToolsBugDemo", "OrToolsBugDemo\OrToolsBugDemo.csproj", "{0E0A2D9D-A5F4-46BF-8998-550BEA28A4DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolverTests", "SolverTests\SolverTests.csproj", "{DCA8EC64-57C8-4518-B125-78CE6FC8B9FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0E0A2D9D-A5F4-46BF-8998-550BEA28A4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E0A2D9D-A5F4-46BF-8998-550BEA28A4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E0A2D9D-A5F4-46BF-8998-550BEA28A4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA8EC64-57C8-4518-B125-78CE6FC8B9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA8EC64-57C8-4518-B125-78CE6FC8B9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA8EC64-57C8-4518-B125-78CE6FC8B9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA8EC64-57C8-4518-B125-78CE6FC8B9FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

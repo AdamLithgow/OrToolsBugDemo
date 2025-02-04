@@ -1,0 +1,182 @@
+{
+  "Routes": [
+    {
+      "RouteId": "590493",
+      "StartDepot": {
+        "LocationId": "StartDepot-590493",
+        "Sequence": 0,
+        "Coordinate": {
+          "Latitude": 39.4122,
+          "Longitude": -81.4376
+        },
+        "StartTime": "2024-11-05T15:15:50-05:00",
+        "EndTime": "2024-11-05T15:15:50-05:00",
+        "LoadingTime": "00:00:00",
+        "UnloadingTime": null
+      },
+      "EndDepot": {
+        "LocationId": "EndDepot-590493",
+        "Sequence": 9,
+        "Coordinate": {
+          "Latitude": 39.4112,
+          "Longitude": -81.4404
+        },
+        "StartTime": "2024-11-05T16:42:33-05:00",
+        "EndTime": "2024-11-05T16:42:33-05:00",
+        "LoadingTime": "00:00:00",
+        "UnloadingTime": "00:00:00"
+      },
+      "Breaks": [],
+      "Orders": [
+        {
+          "OrderId": "P-43136",
+          "Location": {
+            "LocationId": "P-43136",
+            "Sequence": 1,
+            "Coordinate": {
+              "Latitude": 39.4124,
+              "Longitude": -81.4376
+            },
+            "StartTime": "2024-11-05T15:17:54-05:00",
+            "EndTime": "2024-11-05T15:31:30-05:00",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "DistanceSinceLastOrder": 17.0,
+          "TimeSinceLastOrder": "00:00:04",
+          "WaitTime": "00:12:06"
+        },
+        {
+          "OrderId": "D-43136",
+          "Location": {
+            "LocationId": "D-43136",
+            "Sequence": 2,
+            "Coordinate": {
+              "Latitude": 39.4279,
+              "Longitude": -81.4562
+            },
+            "StartTime": "2024-11-05T15:38:35-05:00",
+            "EndTime": "2024-11-05T15:40:05-05:00",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "DistanceSinceLastOrder": 2573.0,
+          "TimeSinceLastOrder": "00:05:05",
+          "WaitTime": "00:00:00"
+        },
+        {
+          "OrderId": "P-43134",
+          "Location": {
+            "LocationId": "P-43134",
+            "Sequence": 3,
+            "Coordinate": {
+              "Latitude": 39.4222,
+              "Longitude": -81.4477
+            },
+            "StartTime": "2024-11-05T15:45:29-05:00",
+            "EndTime": "2024-11-05T15:46:59-05:00",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "DistanceSinceLastOrder": 1293.0,
+          "TimeSinceLastOrder": "00:03:24",
+          "WaitTime": "00:00:00"
+        },
+        {
+          "OrderId": "D-43134",
+          "Location": {
+            "LocationId": "D-43134",
+            "Sequence": 4,
+            "Coordinate": {
+              "Latitude": 39.4268,
+              "Longitude": -81.4388
+            },
+            "StartTime": "2024-11-05T15:53:31-05:00",
+            "EndTime": "2024-11-05T15:55:01-05:00",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "DistanceSinceLastOrder": 1592.0,
+          "TimeSinceLastOrder": "00:04:32",
+          "WaitTime": "00:00:00"
+        },
+        {
+          "OrderId": "P-43094",
+          "Location": {
+            "LocationId": "P-43094",
+            "Sequence": 5,
+            "Coordinate": {
+              "Latitude": 39.414,
+              "Longitude": -81.4551
+            },
+            "StartTime": "2024-11-05T16:03:54-05:00",
+            "EndTime": "2024-11-05T16:05:24-05:00",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "DistanceSinceLastOrder": 2678.0,
+          "TimeSinceLastOrder": "00:06:53",
+          "WaitTime": "00:00:00"
+        },
+        {
+          "OrderId": "D-43094",
+          "Location": {
+            "LocationId": "D-43094",
+            "Sequence": 6,
+            "Coordinate": {
+              "Latitude": 39.4332,
+              "Longitude": -81.4411
+            },
+            "StartTime": "2024-11-05T16:15:22-05:00",
+            "EndTime": "2024-11-05T16:16:52-05:00",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "DistanceSinceLastOrder": 2965.0,
+          "TimeSinceLastOrder": "00:07:58",
+          "WaitTime": "00:00:00"
+        },
+        {
+          "OrderId": "P-42993",
+          "Location": {
+            "LocationId": "P-42993",
+            "Sequence": 7,
+            "Coordinate": {
+              "Latitude": 39.4222,
+              "Longitude": -81.4477
+            },
+            "StartTime": "2024-11-05T16:24:21-05:00",
+            "EndTime": "2024-11-05T16:25:51-05:00",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "DistanceSinceLastOrder": 2017.0,
+          "TimeSinceLastOrder": "00:05:29",
+          "WaitTime": "00:00:00"
+        },
+        {
+          "OrderId": "D-42993",
+          "Location": {
+            "LocationId": "D-42993",
+            "Sequence": 8,
+            "Coordinate": {
+              "Latitude": 39.4235,
+              "Longitude": -81.4654
+            },
+            "StartTime": "2024-11-05T16:33:15-05:00",
+            "EndTime": "2024-11-05T16:34:45-05:00",
+            "LoadingTime": "00:01:30",
+            "UnloadingTime": null
+          },
+          "DistanceSinceLastOrder": 2322.0,
+          "TimeSinceLastOrder": "00:05:24",
+          "WaitTime": "00:00:00"
+        }
+      ]
+    }
+  ],
+  "UnassignableOrders": [],
+  "Status": {
+    "Value": "ROUTING_SUCCESS"
+  }
+}

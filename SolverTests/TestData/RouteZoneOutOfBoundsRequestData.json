@@ -1,0 +1,158 @@
+{
+  "routes": [
+    {
+      "routeId": "580039",
+      "startDepot": {
+        "locationId": "StartDepot-580039",
+        "sequence": null,
+        "coordinate": {
+          "latitude": 35.4992,
+          "longitude": -86.8578
+        },
+        "startTime": "2024-11-12T15:13:21.753Z",
+        "endTime": "2024-11-12T15:13:22.753Z",
+        "loadingTime": "0.00:00:00",
+        "unloadingTime": null
+      },
+      "endDepot": {
+        "locationId": "EndDepot-580039",
+        "sequence": null,
+        "coordinate": {
+          "latitude": 35.6378,
+          "longitude": -87.0411
+        },
+        "startTime": "2024-11-12T10:01:00.000Z",
+        "endTime": "2024-11-13T05:59:00.000Z",
+        "loadingTime": "0.00:00:00",
+        "unloadingTime": "0.00:00:00"
+      },
+      "breaks": [],
+      "orders": [
+        {
+          "orderId": "P-1234",
+          "location": {
+            "locationId": "P-1234",
+            "sequence": 0,
+            "coordinate": {
+              "latitude": 35.926635978831335,
+              "longitude": -86.86779209999789
+            },
+            "startTime": "2024-11-12T17:30:00.000Z",
+            "endTime": "2024-11-12T18:15:00.000Z",
+            "loadingTime": "0.00:01:00",
+            "unloadingTime": null
+          },
+          "capacities": [
+            {
+              "capacityType": 0,
+              "currentSeats": 1
+            },
+            {
+              "capacityType": 1,
+              "currentSeats": 0
+            },
+            {
+              "capacityType": 2,
+              "currentSeats": 0
+            }
+          ],
+          "assignmentRule": 3,
+          "specialConstraintsRequired": [],
+          "priorityType": 1,
+          "subsequentOrder": {
+            "orderId": "D-1234",
+            "location": {
+              "locationId": "D-1234",
+              "sequence": 0,
+              "coordinate": {
+                "latitude": 35.92488535195896,
+                "longitude": -86.87058696179064
+              },
+              "startTime": "2024-11-12T17:15:00.000Z",
+              "endTime": "2024-11-12T18:15:00.000Z",
+              "loadingTime": "0.00:01:00",
+              "unloadingTime": null
+            },
+            "capacities": [
+              {
+                "capacityType": 0,
+                "currentSeats": -1
+              },
+              {
+                "capacityType": 1,
+                "currentSeats": 0
+              },
+              {
+                "capacityType": 2,
+                "currentSeats": 0
+              }
+            ],
+            "assignmentRule": 3,
+            "specialConstraintsRequired": [],
+            "priorityType": 1,
+            "subsequentOrder": null
+          }
+        }
+      ],
+      "capacities": [
+        {
+          "capacityType": 0,
+          "currentSeats": 4
+        },
+        {
+          "capacityType": 1,
+          "currentSeats": 0
+        },
+        {
+          "capacityType": 2,
+          "currentSeats": 0
+        }
+      ],
+      "specialConstraintsSatisfies": [
+        "C"
+      ],
+      "travelConstraints": {
+        "maxStops": 200
+      },
+      "costs": null,
+      "routeZones": [
+        {
+          "name": "580039",
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -87.2720017907032,
+                  35.7591028887109
+                ],
+                [
+                  -87.3658858707659,
+                  35.6220354539018
+                ],
+                [
+                  -87.3852918592077,
+                  35.418839509876
+                ],
+                [
+                  -86.6866912473761,
+                  35.3845042193435
+                ],
+                [
+                  -86.9135721288276,
+                  35.7892314247729
+                ],
+                [
+                  -87.2720017907032,
+                  35.7591028887109
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "arriveDepartDelay": "0.00:01:00"
+    }
+  ],
+  "orders": []
+}
