@@ -34,7 +34,7 @@ public class Solver
 
 		routing.AddDimensionWithVehicleTransitAndCapacity(
 			transitTimeCallbacks,
-			3600,					// 3 hours
+			30000,
 			solverData.VehicleTimeCapacities,
 			false,
 			"Time"
@@ -151,7 +151,6 @@ public class Solver
 				// Create a NTS point using the location's coordinates
 				var point = geometryFactory.CreatePoint(new NetTopologySuite.Geometries.Coordinate(location.Coordinate.Longitude, location.Coordinate.Latitude));
 
-
 				// Check if any route zone assigned to the route can contain the point
 					// TODO: Setting to true results in 2 expected, 0 actual
 				// var orderIsServiceableByRoute = true;
@@ -160,7 +159,6 @@ public class Solver
 					// TODO: Performing evaluation results in time window being thrown off, but only when
 					// SetSpanCostCoefficientForAllVehicles and/or SetSpanUpperBoundForVehicle are set
 				var orderIsServiceableByRoute = route.RouteZones.Any(routeZone => routeZone.Contains(point));
-
 
 				return orderIsServiceableByRoute ? 0 : 1;
 			});

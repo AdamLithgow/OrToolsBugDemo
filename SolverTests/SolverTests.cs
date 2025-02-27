@@ -105,9 +105,9 @@ public class SolverTests
 
 		Assert.NotNull(response);
 		Assert.Equal(VrpBugDemo.Enums.SolveStatus.Success, response.Status);
+		Assert.Equivalent(solverResponse.Routes, response.Routes);
 		Assert.Equal(2, response.UnassignableOrders.Count);
 		Assert.Equivalent(solverResponse.UnassignableOrders, response.UnassignableOrders);
-		Assert.Equivalent(solverResponse.Routes, response.Routes);
 	}
 
 	[Fact]
